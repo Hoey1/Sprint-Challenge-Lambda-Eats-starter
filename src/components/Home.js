@@ -14,5 +14,4 @@ function Home() {
     </button>
   );
 }
-
 export default Home;
