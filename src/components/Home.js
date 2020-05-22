@@ -10,7 +10,7 @@ function Home() {
         history.push("/pizza");
       }}
     >
-      Order A Pie!
+      Pizza?
     </button>
   );
 }

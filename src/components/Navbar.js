@@ -6,6 +6,7 @@ const Navbar = ({ icon, title }) => {
     <nav className="navbar bg-primary">
       <h1>
         <i className={icon} /> {title}
+        {/* <i class="fas fa-pizza-slice"></i> */}
       </h1>
     </nav>
   );
@@ -13,7 +14,7 @@ const Navbar = ({ icon, title }) => {
 
 Navbar.defaultProps = {
   title: "Lambda Eats",
-  icon: "fab fa-pizza-slice",
+  icon: "fas fa-pizza-slice",
 };
 
 Navbar.propTypes = {
